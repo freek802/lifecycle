@@ -1,0 +1,6 @@
+<p>product works!</p>
+
+<products-price *ngIf="toogle" [price]="currentPrice" />
+
+<button (click)="toogle = !toogle">Toogle</button>
+<button (click)="increasePrice()">Increase Price</button>
